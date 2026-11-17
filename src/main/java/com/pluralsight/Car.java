@@ -16,6 +16,10 @@ public class Car extends Vehicle {
         this.numberOfDoors = numberOfDoors;
     }
 
+    public Car(String model, String color, int topSpeed) {
+        super(model, color, topSpeed);
+    }
+
     public int getNumberOfDoors() {
         return numberOfDoors;
     }

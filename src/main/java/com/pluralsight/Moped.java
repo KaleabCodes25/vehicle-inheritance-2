@@ -17,6 +17,11 @@ public class Moped extends Vehicle {
         this.maxWeight = maxWeight;
     }
 
+    public Moped(String model, String color, int topSpeed, int maxWeight) {
+        super(model, color, topSpeed);
+        this.maxWeight = maxWeight;
+    }
+
     public int getMaxWeight() {
         return maxWeight;
     }

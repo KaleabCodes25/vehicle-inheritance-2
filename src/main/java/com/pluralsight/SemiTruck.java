@@ -16,6 +16,11 @@ public class SemiTruck extends Vehicle {
         this.numberOfTrailers = numberOfTrailers;
     }
 
+    public SemiTruck(String model, String color, int topSpeed, int numberOfTrailers) {
+        super(model, color, topSpeed);
+        this.numberOfTrailers = numberOfTrailers;
+    }
+
     public int getNumberOfTrailers() {
         return numberOfTrailers;
     }
